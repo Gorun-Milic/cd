@@ -1,0 +1,342 @@
+.services-part {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: #302f2f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 10rem;
+}
+
+.introduction-part {
+    text-align: center;
+    margin-bottom: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.int-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.int-text {
+    width: 50rem;
+    margin-bottom: 1rem;
+}
+
+.int-line {
+    height: 0.3rem;
+    width: 7rem;
+    background-color: var(--light-blue);
+}
+
+.project-list {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-row {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
+.project-icon {
+    margin-bottom: 0.5rem;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.project1 {
+    max-height: 7rem;
+    min-height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.project2 {
+    max-height: 7rem;
+    min-height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.project3 {
+    max-height: 7rem;
+    min-height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.project4 {
+    max-height: 7rem;
+    min-height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.project5 {
+    max-height: 7rem;
+    min-height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.project6 {
+    max-height: 7rem;
+    min-height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.project7 {
+    max-height: 7rem;
+    min-height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.project8 {
+    max-height: 7rem;
+    min-height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.project9 {
+    max-height: 7rem;
+    min-height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.project10 {
+    max-height: 7rem;
+    min-height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.project11 {
+    max-height: 7rem;
+    min-height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.project12 {
+    max-height: 7rem;
+    min-height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1200px) {
+    .services-part {
+        padding: 5rem;
+    }
+
+    .project-row {
+        margin-bottom: 0rem;
+    }
+
+    .int-text {
+        width: 30rem;
+        margin-bottom: 1rem;
+    }
+
+    .project1 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 50%;
+    }
+    
+    .project2 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 50%;
+    }
+    
+    .project3 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 50%;
+    }
+    
+    .project4 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 50%;
+    }
+
+    .project5 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 50%;
+    }
+    
+    .project6 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 50%;
+    }
+    
+    .project7 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 50%;
+    }
+    
+    .project8 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 50%;
+    }
+
+    .project9 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 50%;
+    }
+    
+    .project10 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 50%;
+    }
+    
+    .project11 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 50%;
+    }
+    
+    .project12 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 50%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+    .int-text {
+        width: 25rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
+    .int-text {
+        width: 18rem;
+    }
+
+    .project1 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 100%;
+    }
+    
+    .project2 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 100%;
+    }
+    
+    .project3 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 100%;
+    }
+    
+    .project4 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 100%;
+    }
+
+    .project5 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 100%;
+    }
+    
+    .project6 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 100%;
+    }
+    
+    .project7 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 100%;
+    }
+    
+    .project8 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 100%;
+    }
+
+    .project9 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 100%;
+    }
+    
+    .project10 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 100%;
+    }
+    
+    .project11 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 100%;
+    }
+    
+    .project12 {
+        max-height: 10rem;
+        min-height: 10rem;
+        width: 100%;
+    }
+}

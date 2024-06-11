@@ -1,0 +1,224 @@
+.references-part {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 8rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction-part {
+    text-align: center;
+    margin-bottom: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.int-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.int-text {
+    width: 50rem;
+    margin-bottom: 1rem;
+}
+
+.int-line {
+    height: 0.3rem;
+    width: 7rem;
+    background-color: var(--light-blue);
+}
+
+.table-block {
+    width: 90%;
+}
+
+.ref-table {
+    box-sizing: border-box;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ref-table td, .ref-table th {
+    min-width: 5rem;
+    height: 4rem;
+    padding: 1.2rem, 1.5rem;
+    border: 1px solid rgb(44, 44, 44);
+    text-align: center;
+}
+
+.ref-table th {
+    background-color: rgb(44, 44, 44);
+    color: var(--white);
+}
+
+.ref-table tbody tr:nth-child(even) {
+    background-color: #e2e1e1;
+}
+
+.table-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.table-buttons-mobile {
+    display: none;
+}
+
+.curr-page {
+    width: 4rem;
+    text-align: center;
+}
+
+.page-left {
+    font-size: 2rem;
+    padding: 0.7rem 1.5rem;
+    background-color: var(--dark-gray);
+    color: var(--white);
+}
+
+.page-left:hover {
+    cursor: pointer;
+}
+
+.page-right {
+    font-size: 2rem;
+    padding: 0.7rem 1.5rem;
+    background-color: var(--dark-gray);
+    color: var(--white);
+}
+
+.page-right:hover {
+    cursor: pointer;
+}
+
+.page-left-disabled {
+    font-size: 2rem;
+    padding: 0.7rem 1.5rem;
+    background-color: #8f8f8f;
+    color: #555555;
+}
+
+.page-right-disabled {
+    font-size: 2rem;
+    padding: 0.7rem 1.5rem;
+    background-color: #8f8f8f;
+    color: #555555;
+}
+
+.td-id {
+    width: 5%;
+}
+
+.td-client {
+    width: 32%;
+}
+
+.td-location {
+    width: 9%;
+}
+
+.td-description {
+    width: 45%;
+}
+
+.td-area {
+    width: 9%;
+}
+
+.empty-rows {
+    /* display: block; */
+    width: 100%;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1200px) {
+    .int-text {
+        width: 30rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+    .int-text {
+        width: 25rem;
+    }
+
+    .ref-table {
+        min-height: 30rem;
+    }
+}
+
+/* Small devices */
+@media only screen and (max-width: 800px) {
+
+    .references-part {
+        padding: 8rem 3rem;
+    }
+
+    .int-text {
+        width: 17rem;
+    }
+
+    .table-block {
+        width: 100%;
+    }
+
+    .ref-table thead {
+        display: none;
+    }
+
+    .ref-table, .ref-table tbody, .ref-table tr, .ref-table td, .td-id, .td-client, .td-location, .td-description, .td-area {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+    }
+
+    .empty-rows {
+        /* background-color: #af2a2a; */
+        display: none;
+    }
+
+    .ref-table td {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        min-height: 7rem;
+        overflow: scroll;
+    } 
+
+    .ref-table tr {
+        margin-bottom: 2rem;
+    }
+
+    .table-buttons {
+        display: none;
+    }
+    
+    .table-buttons-mobile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+     /* Make empty rows invisible in mobile view */
+
+    /* .extended-table {
+        opacity: 0;
+    }
+    
+    .extended-table tr, .extended-table td {
+        border: 0;
+    } */
+}

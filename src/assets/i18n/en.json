@@ -1,0 +1,51 @@
+{
+    "about": "about",
+    "services": "services",
+    "references": "references",
+    "contact": "contact",
+
+    "Welcome": "Welcome",
+    "Welcome Message": "We are a company for designing, installation and maintenance of integrated IP systems for SME, hotels, banks, schools, industrial buildings, etc.",
+
+    "More About Us": "More About Us",
+    "About Us Message 1": "The Company was founded in 2013 and today it can offer full signaling systems solutions to general purpose facilities starting with project designing, consulting about preferred vendors, to system installation and maintenance. Our international business partners are world leading companies with ultimate products and solutions which are established and recognized in this business field.",
+    "About Us Message 2": "In our business policy as well as in our activities, client comes first. Not only do we try to meet our clients ideas and expectations but to anticipate and exceed them.",
+
+    "Project Design": "Project Design",
+    "Consulting": "Consulting",
+    "Installation & Maintenance": "Installation & Maintenance",
+    "Project Design Text": "In the initial phase, we are working on the development of the project. Following all the rules and standards, we strive to meet all client requirements.",
+    "Consulting Text": "Once the client is satisfied with the project, we move on to the next phase. At this stage we consult our clients to find the vendors they prefer the most.",
+    "Installation & Maintenance Text": "Now that we finished the project and all the consultations are done, we are working on the installation of the system. Along with installation, we also do system maintenance.",
+
+    "Our Team": "Our Team",
+    "Our Team Message": "Company structure consists of a sufficient number of established engineers of various professions with a vast experience in specialized project designing of large infrastructural telecommunication networks and systems, security systems, engineering services, management and construction.",
+
+    "What we do?": "What we do?",
+    "Services Message": "In recent history our company has been involved in projects for facilities of various purposes and technologies, beginning with industrial complexes, business-residential areas, residential buildings, telecommunication trunk infrastructure (reconstruction as well as new ones). Many of these projects have been successfully carried out, and are in use today.",
+    "Structure cabling system": "Structure cabling system",
+    "TV distribution system": "TV distribution system",
+    "Fire detection system": "Fire detection system",
+    "Gas detection system": "Gas detection system",
+    "Intrusion system": "Intrusion system",
+    "Access control system": "Access control system",
+    "Smart home system": "Smart home system",
+    "AV conference system": "AV conference system",
+    "Multimedia system": "Multimedia system",
+    "Intercom system": "Intercom system",
+    "Public Address system": "Public Address system",
+    "CCTV system": "CCTV system",
+
+    "Solar Panels": "Solar Panels",
+    "Solar Panels Text": "One of the main services that our company offers is the design, installation and maintenance of solar panels. Solar panels use sunlight as a source of energy to produce electricity and heating. This system provides more environmentally friendly solution for energy production in your homes.",
+
+    "References": "References",
+    "References Message": "Contemporary telecommunication and security trends and technologies ask for sophisticated, user friendly systems which can be integrated into a unique “smart” building system. Based on this approach we have broadened our experience by deploying such methods and solutions.",
+    "Num.": "Num.",
+    "Client": "Client",
+    "Location": "Location",
+    "Description": "Description",
+    "Area": "Area",
+    
+    "Footer Message": "Thank you for visiting our website. If you think you need any of our services, feel free to contact us. You can contact us via mobile phone or an email."
+}

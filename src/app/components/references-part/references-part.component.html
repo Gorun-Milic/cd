@@ -1,0 +1,55 @@
+<div class="references-part">
+    <div class="introduction-part">
+        <div class="int-title">{{"References" | translate}}</div>
+        <div class="int-text">
+            {{"References Message" | translate}}
+        </div>
+        <div #tableStart class="int-line"></div>
+    </div>
+
+    <div class="table-block">
+        <table class="ref-table">
+            <thead>
+              <th>{{"Num." | translate}}</th>
+              <th>{{"Client" | translate}}</th>
+              <th>{{"Location" | translate}}</th>
+              <th>{{"Description" | translate}}</th>
+              <th>{{"Area" | translate}}</th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let reference of references | slice:start:end">
+                    <td class="td-id">{{reference.id}}</td>
+                    <td class="td-client">{{reference.client}}</td>
+                    <td class="td-location">{{reference.location}}</td>
+                    <td class="td-description">{{reference.description}}</td>
+                    <td class="td-area" *ngIf="reference.area!=='/'; else elseBlock">{{reference.area + 'm'}}<sup>2</sup></td>
+                    <ng-template #elseBlock>
+                        <td class="td-area">/</td>
+                    </ng-template>
+                </tr>
+                <ng-container *ngIf="end-start!==take">
+                    <tr class="extended-table" *ngFor="let number of [0, 1, 2, 3, 4] | slice:0:(take - (end - start))">
+                        <td class="td-id"></td>
+                        <td class="td-client"></td>
+                        <td class="td-location"></td>
+                        <td class="td-description"></td>
+                        <td class="td-area"></td>
+                    </tr>
+                </ng-container>
+            </tbody>
+          </table>
+    </div>
+
+    <div class="table-buttons">
+        <div [class]="pageLeftButton" (click)="previousPageNormal()"> < </div>
+        <div class="curr-page">{{currentPage}}</div>
+        <div [class]="pageRightButton" (click)="nextPageNormal()"> > </div>
+    </div>
+
+    <div class="table-buttons-mobile">
+        <div [class]="pageLeftButton" (click)="previousPageMobile()"> < </div>
+        <div class="curr-page">{{currentPage}}</div>
+        <div [class]="pageRightButton" (click)="nextPageMobile()"> > </div>
+    </div>
+
+</div>

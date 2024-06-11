@@ -1,0 +1,23 @@
+<app-navigation (childEvent)="navigationClicked($event)" (languageEvent)="languageChanged($event)"></app-navigation>
+<div #about>
+    <app-welcome-part></app-welcome-part>
+    <app-about-us-part></app-about-us-part>
+    <app-work-process-part></app-work-process-part>
+    <app-employees-part></app-employees-part>
+</div>
+
+<div #services>
+    <app-services-part></app-services-part>
+</div>
+
+<div>
+    <app-solar-panels-part></app-solar-panels-part>
+</div>
+
+<div #references>
+    <app-references-part #refpart></app-references-part>
+</div>
+
+<div #contact>
+    <app-footer-part></app-footer-part>
+</div>

@@ -1,0 +1,35 @@
+<div class="navigation">
+    <div class="branding">
+        <img class="logotype" src="../../../assets/images/logo1.svg" alt="">
+    </div>
+
+    <div class="nav-elements">
+        <div class="nav-element" (click)="clickAbout()">{{"about" | translate}}</div>
+        <div class="nav-element" (click)="clickServices()">{{"services" | translate}}</div>
+        <div class="nav-element" (click)="clickReferences()">{{"references" | translate}}</div>
+        <div class="nav-element" (click)="clickContact()">{{"contact" | translate}}</div>
+        <div class="nav-element drop-down-element" (click)="openDropDownMany()">
+            <div class="arrow-down">
+                <div [class]="dropDownManyClass">
+                    <div class="many-item" (click)="changeLanguage('sr')">Srpski</div>
+                    <div class="many-item" (click)="changeLanguage('en')">English</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div [class]="hamburgerClass" (click)="openCloseVerticalNavigation()">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+</div>
+
+<div [class]="verticalNavigationClass">
+    <div class="vertical-navigation-elements">
+        <div class="vertical-navigation-element" (click)="changeLanguageMobile('sr')">Srpski</div>
+        <div class="vertical-navigation-element" (click)="changeLanguageMobile('en')">English</div>
+    </div>
+</div>
+
+<div [class]="haveBlanket" (click)="clickOnBlanket()"></div>

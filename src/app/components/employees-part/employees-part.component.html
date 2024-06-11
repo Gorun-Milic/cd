@@ -1,0 +1,31 @@
+<div class="employees-part">
+    <div class="employees">
+        <div class="emp-title">{{"Our Team" | translate}}</div>
+
+        <div [ngClass]="emp1Classes" (click)="emp1Clicked()">
+            <div class="emp-name">Vladimir Marković</div>
+            <div [class]="emp1Line"></div>
+        </div>
+        
+        <div [ngClass]="emp2Classes" (click)="emp2Clicked()">
+            <div class="emp-name">Vladimir Miletić</div>
+            <div [class]="emp2Line"></div>
+        </div>
+
+        <div [ngClass]="emp3Classes" (click)="emp3Clicked()">
+            <div class="emp-name">Đorđe Topalović</div>
+            <div [class]="emp3Line"></div>
+        </div>
+
+        <div [ngClass]="emp4Classes" (click)="emp4Clicked()">
+            <div class="emp-name">Marko Baković</div>
+            <div [class]="emp4Line"></div>
+        </div>
+    </div>
+
+    <div [class]="empImage"></div>
+
+    <div class="emp-description">
+        {{"Our Team Message" | translate}}
+    </div>
+</div>

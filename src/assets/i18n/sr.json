@@ -1,0 +1,51 @@
+{
+    "about": "o nama",
+    "services": "usluge",
+    "references": "reference",
+    "contact": "kontakt",
+
+    "Welcome": "Dobrodošli",
+    "Welcome Message": "Mi smo kompanija koja se bavi projektovanjem, instalacijom i održavanjem integrisanih IP sistema za mala i srednja preduzeća, hotele, banke, škole, industrijske zgrade itd.",
+
+    "More About Us": "Više o nama",
+    "About Us Message 1": "Kompanija je osnovana 2013. godine i danas nudi kompletna rešenja signalizacionih sistema za objekte opšte namene, počevši od projektovanja, preko konsultovanja o željenim dobavljačima, do instalacije i održavanja sistema. Naši međunarodni poslovni partneri su vodeće svetske kompanije sa vrhunskim proizvodima i rešenjima koji su priznati u ovoj oblasti poslovanja.",
+    "About Us Message 2": "U našoj poslovnoj politici, kao i u našim aktivnostima, klijent je na prvom mestu. Ne samo da se trudimo da ispunimo ideje i očekivanja naših klijenata, već da ih predvidimo i premašimo.",
+
+    "Project Design": "Dizajn projekta",
+    "Consulting": "Konsultacije",
+    "Installation & Maintenance": "Instalacija i održavanje",
+    "Project Design Text": "U početnoj fazi radimo na izradi projekta. Poštujući sva pravila i standarde, trudimo se da ispunimo sve zahteve naših klijenata.",
+    "Consulting Text": "Kada je klijent zadovoljan projektom, prelazimo na sledeću fazu. U ovoj fazi konsultujemo naše klijente kako bismo pronašli dobavljače koji im najviše odgovaraju.",
+    "Installation & Maintenance Text": "Sada kada smo završili projekat i sve konsultacije, radimo na montaži sistema. Uz montažu vršimo i održavanje sistema.",
+
+    "Our Team": "Naš tim",
+    "Our Team Message": "Strukturu našeg preduzeća čini određen broj afirmisanih inženjera različitih tipova obrazovanja sa ogromnim iskustvom u projektovanju velikih infrastrukturnih telekomunikacionih mreža i sistema, sigurnosnih sistema, inženjerskih usluga, menadžmenta i izgradnje.",
+
+    "What we do?": "Koje usluge nudimo?",
+    "Services Message": "U novijoj istoriji, naša kompanija se bavila projektima za objekte različitih namena i tehnologija, počev od industrijskih kompleksa, poslovno-stambenih zona, stambenih zgrada, telekomunikacione magistralne infrastrukture. Mnogi od ovih projekata su uspešno sprovedeni i danas se uspešno koriste.",
+    "Structure cabling system": "Kablovski sistem",
+    "TV distribution system": "TV Distributivni sistem",
+    "Fire detection system": "Sistem detekcije vatre",
+    "Gas detection system": "Sistem detekcije gasa",
+    "Intrusion system": "Sistem zaštite mreže",
+    "Access control system": "Sistem zaštite pristupa",
+    "Smart home system": "Pametni domovi",
+    "AV conference system": "Audio-video konferencije",
+    "Multimedia system": "Multimedijalni sistem",
+    "Intercom system": "Interfonski sistem",
+    "Public Address system": "Sistem javnog razglasa",
+    "CCTV system": "Sistem video nadzora",
+
+    "Solar Panels": "Solarni paneli",
+    "Solar Panels Text": "Jedna od glavnih usluga koje naša kompanija nudi je projektovanje, ugradnja i održavanje solarnih panela. Solarni paneli koriste sunčevu svetlost kao izvor energije kako bi proizveli električnu energiju i toplotu. Ovaj sistem pruža ekološki prihvatljivije rešenje za proizvodnju energije u vašim domovima.",
+
+    "References": "Reference",
+    "References Message": "Savremeni telekomunikacijski i bezbednosni trendovi i tehnologije zahtevaju sofisticirane sisteme prilagođene korisniku koji se mogu integrisati u jedinstveni „pametni“ sistem zgrada. Na osnovu ovog pristupa proširili smo naše iskustvo primenom ovakvih metoda i rešenja.",
+    "Num.": "Br.",
+    "Client": "Klijent",
+    "Location": "Lokacija",
+    "Description": "Opis",
+    "Area": "Površina",
+
+    "Footer Message": "Hvala vam što ste posetili našu veb stranicu. Ako mislite da vam je potrebna neka od naših usluga, slobodno nas kontaktirajte putem mobilnog telefona ili email-a."
+}
